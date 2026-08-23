@@ -12,7 +12,7 @@ const {
   revalidarToken,
 } = require("../controllers/auth");
 
-const { jwtValidator } = require("../middlewares/jwt-Validator");
+const { jwtValidator } = require("../middlewares/jwt-validator");
 
 const router = Router();
 

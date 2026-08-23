@@ -5,7 +5,7 @@
 
 const { Router } = require("express");
 const { check } = require("express-validator");
-const { jwtValidator } = require("../middlewares/jwt-Validator");
+const { jwtValidator } = require("../middlewares/jwt-validator");
 const { fieldValidator } = require("../middlewares/field-validator");
 const {
   getEventos,
